@@ -2,4 +2,4 @@
 
 Solutions of "Advent of code 2020" event
 
-link: https://adventofcode.com/2020/
+Link: https://adventofcode.com/2020/
