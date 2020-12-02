@@ -1,10 +1,12 @@
+import java.nio.file.Paths
+
 import NumberFinder.NumberFinder
 import TextReader.TextReader
 
 object Program extends App {
 	val textReader = new TextReader()
 	val numbers = textReader
-	  .readAllLines("D:\\Projects Scala\\advent_of_code_2020\\Day_1\\src\\Input.txt")
+	  .readAllLines(Paths.get("src", "input.txt").toString)
 	  .map(number => Integer.parseInt(number))
 	
 	val finder = new NumberFinder()
